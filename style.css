@@ -1,0 +1,64 @@
+body{
+   
+    background-color: black;
+}
+.container {
+  height: fit-content;
+  width: 25%;
+  padding: 10px;
+  background-color: white; 
+  margin-left: auto;
+    margin-right: auto;
+}
+.display input {
+  width: 99%;
+  height: 70px;
+  outline: none;
+  border: none;
+  text-align: right;
+  font-size: 40px;  
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 75%;
+  margin: 14px 0 0 0;
+}
+.buttons button {
+  width: 19%;
+  height: 31px;
+  border: none;
+  background-color: white;
+border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 12px;
+}
+.row a {
+  padding: 0 10px;
+  color: rgba(0, 0, 0, 0.76);
+  cursor: pointer;
+}
+.diff {
+  font-size: 14px;
+  font-weight: bolder;
+}
+.diff select {
+  border: none;
+  background-color: #ecf0f3;
+}
+#diff1{
+    color: rgb(196, 189, 189);
+}
+#dark{
+    font-weight: bolder;
+}
+.row{
+    font-size: 15px;
+    padding: 5px;
+}
+::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
